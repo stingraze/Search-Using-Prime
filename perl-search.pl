@@ -1,14 +1,14 @@
 #!/usr/bin/perl
-#Last edited on 3/15/2020 8:16AM
+#Last edited on 4/1/2020 11:22AM
 #(C)Tsubasa Kato 2020. C algorithm Coded by Beshoy M.
 use strict;
 use warnings;
 use Time::HiRes qw/gettimeofday/;
 
-my $conf_file = 'database.txt';
+my $db_file = 'database.txt';
 my $counter = 0;
 
-open(my $in,'<', $conf_file) or die("unable to open $conf_file");
+open(my $in,'<', $db_file) or die("unable to open $db_file");
 my @lines = <$in>;
 #print @lines;
 
