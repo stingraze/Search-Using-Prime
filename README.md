@@ -6,4 +6,4 @@ database.txt is the file you need to prepare yourself to search. Pretty straight
 
 search_only_c.c is written only in C, others use Perl only or Perl and C with Inline.
 
-perl_search.pl is a regex only search script that is to be used as a comparison.
+perl-search.pl is a regex only search script that is to be used as a comparison.
