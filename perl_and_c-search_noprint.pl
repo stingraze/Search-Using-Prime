@@ -17,7 +17,6 @@ print "Please input query: ";
 chomp(my $input = <STDIN>);
 #    $input=trim($input);
 #print "Your Choice was: $input \n";
-#  浮動小数点数で経過時間を取得（このサンプルだと0.20xxxx秒程）
 my ($start_sec, $start_microsec) = gettimeofday();
 for my $line (@lines) {
 		
