@@ -67,7 +67,7 @@ int Compare(char* query , char* data, int threshold)
 		int threshold2 = threshold * 3;
 		if(found && misValue <= threshold2)
 		{
-			printf("two strings are partially matched within threshold.\n");
+			printf(" two strings are partially matched within threshold.\n");
 			printf("%s", data);
 			//clock_t end_time = clock();
 			//time_spent += (double)(end_time - begin_time) / CLOCKS_PER_SEC;
