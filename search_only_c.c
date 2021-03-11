@@ -76,7 +76,7 @@ int Compare(char* query , char* data, int threshold)
 			return 1;
 		}
 		if(found){
-			printf("two strings were partially matched\n");
+			printf(" two strings were partially matched\n");
 			printf("%s", data);
 			//clock_t end_time = clock();
 			
